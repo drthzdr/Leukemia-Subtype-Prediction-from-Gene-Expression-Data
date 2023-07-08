@@ -8,7 +8,7 @@ Early prediction of leukemia is crucial to successful treatment and improved out
 Machine learning can play a critical role in predicting leukemia well ahead of time by analyzing large amounts of gene expression data to identify patterns and predict risk factors for developing cancer. By training algorithms on gene expression data of tumor cells from past cases, machine learning models can recognize early warning signs and predict the likelihood of not just developing leukemia in the future, but also its subtype. This presents an exciting opportunity for precision medicine of white cell neoplasms.
 
 # Project Overview
-We first obtained a leukemia gene expression dataset containing 7 classes, 22284 genes and 281 sampless from the Curated Microarray Database (CuMiDa). 
+A leukemia gene expression dataset containing 7 classes, 22284 genes and 281 sampless from the Curated Microarray Database (CuMiDa) was utilized. 
 
 First method implemented was Logistic Regression, which is a supervised learning algorithm commonly used for classification tasks. Logistic regression can handle high-dimensional datasets, and it is relatively easy to interpret the results. For classifying the multiple leukemia subtypes, the one-vs-rest (OvR) approach was utilized.
 
